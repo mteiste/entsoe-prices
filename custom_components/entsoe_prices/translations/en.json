@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "api_key": "ENTSO-E API key",
+          "area": "Bidding zone",
+          "vat": "VAT percentage"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-enter ENTSO-E API key",
+        "description": "The ENTSO-E API key for {name} was rejected. Enter a valid key.",
+        "data": {
+          "api_key": "ENTSO-E API key"
+        }
+      },
+      "reconfigure": {
+        "data": {
+          "api_key": "ENTSO-E API key",
+          "area": "Bidding zone",
+          "vat": "VAT percentage"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid API key",
+      "cannot_connect": "Could not reach the ENTSO-E API"
+    },
+    "abort": {
+      "reauth_successful": "API key updated successfully",
+      "reconfigure_successful": "Settings updated successfully"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "vat": "VAT percentage"
+        }
+      }
+    }
+  }
+}
